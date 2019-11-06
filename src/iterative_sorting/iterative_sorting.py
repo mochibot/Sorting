@@ -14,7 +14,7 @@ def insertion_sort( arr ):
         temp = arr[i]
         j = i
 
-        while j > 0 and temp < j - 1:     # shift element until it is in correct position
+        while j > 0 and temp < arr[j - 1]:     # shift element until it is in correct position
             arr[j] = arr[j - 1]
             j -= 1
         
