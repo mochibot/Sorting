@@ -91,3 +91,5 @@ Look into Counting Sort.
 
 ### You Might be Surprised at What Passes for a Sorting Algorithm
 - Explore Bogo Sort and summarize how it works in a couple of sentences.
+
+ Bogo sort successively generates permutations of its input until it finds one that is sorted. It is highly efficient and has an average runtime of O(n!), because the chance that a given shuffle will end up in sorted order is about 1/n!. The worse-case runtime is infinite as there is no guarantee that a random shuffle will produce a sorted sequence. 
